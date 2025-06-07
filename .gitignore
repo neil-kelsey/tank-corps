@@ -1,0 +1,32 @@
+# Unreal Engine project folders to ignore
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.vs/
+Build/
+*.sln
+
+# Compiled files
+*.exe
+*.dll
+*.pdb
+*.app
+*.dSYM
+*.ipa
+
+# Logs
+*.log
+
+# Mac & Linux system files
+.DS_Store
+Thumbs.db
+
+# Unreal autosaves and backups
+Autosaves/
+Backup/
+
+# Ignore generated plugin files
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
